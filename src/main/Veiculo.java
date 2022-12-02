@@ -9,6 +9,7 @@ public abstract class Veiculo {
 	private String marca;
 	private String modelo;
 	private double valor;
+	protected double imposto;
 	
 	public String getMarca() {
 		return marca;

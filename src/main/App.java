@@ -14,15 +14,15 @@ public class App {
 		// https://www.4devs.com.br/gerador_de_empresas
 		Fisica f1 = new Fisica(), f2 = new Fisica(), f3 = new Fisica();
 		f1.setNome("Gabriel Azevedo Pinto");
-		f1.setCpf("652.483.212-47 ");
+		f1.setDocumento("652.483.212-47 ");
 		f1.setEndereco("Avenida Sete de Setembro, 1996");
 		f1.setContato("(42) 8135-9615");
 		f2.setNome("Estevan Almeida Goncalves");
-		f2.setCpf("604.980.868-60");
+		f2.setDocumento("604.980.868-60");
 		f2.setEndereco("Rua Guaraú, 323");
 		f2.setContato("(11) 3899-7003");
 		f3.setNome("Douglas Rodrigues Silva");
-		f3.setCpf("287.481.063-05");
+		f3.setDocumento("287.481.063-05");
 		f3.setEndereco("Rua Quarta, 8");
 		f3.setContato("(91) 8079-7831");
 		arrPF.add(f1);
@@ -31,15 +31,15 @@ public class App {
 
 		Juridica j1 = new Juridica(), j2 = new Juridica(), j3 = new Juridica();
 		j1.setNome("Renato e Manoel Telecomunicações Ltda");
-		j1.setCnpj("48.467.183/0001-86");
+		j1.setDocumento("48.467.183/0001-86");
 		j1.setEndereco("Rua Santo Antônio, 763");
 		j1.setContato("(84) 7925-4008");
 		j2.setNome("Stella e Mariah Doces & Salgados ME");
-		j2.setCnpj("69.442.492/0001-71");
+		j2.setDocumento("69.442.492/0001-71");
 		j2.setEndereco("Rua Trinta e Dois, 28");
 		j2.setContato("(51) 3347-4137");
 		j3.setNome("Liz e Matheus Eletrônica Ltda");
-		j3.setCnpj("81.717.934/0001-40");
+		j3.setDocumento("81.717.934/0001-40");
 		j3.setEndereco("Rua Diário de Pernambuco, 1982");
 		j3.setContato("(81) 3102-5527");
 		arrPJ.add(j1);
